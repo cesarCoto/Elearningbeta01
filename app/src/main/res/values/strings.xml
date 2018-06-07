@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">E-learning-beta-0.1</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="androidTitle">Android</string>
+    <string name="jsTitle">Js</string>
+    <string name="htmlcssTitle">HTML/ CSS</string>
+    <string name="experto_title">Experto</string>
+    <string name="intermedio_title">Intermedio</string>
+    <string name="principiante_title">Principiante</string>
+</resources>

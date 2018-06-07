@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:id="@+id/containerLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless">
+    <TextView
+        android:id="@+id/textViewNumeroVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textViewTitleVideoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Title video"
+        android:layout_toEndOf="@id/textViewNumeroVideo"
+        android:layout_marginStart="8dp"
+        android:layout_toStartOf="@id/shareVideoOfCurso"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewDurationVideoItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Duration"
+        android:layout_below="@id/textViewTitleVideoItem"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/textViewNumeroVideo"
+        android:layout_toStartOf="@id/shareVideoOfCurso"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/shareVideoOfCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_share"
+        android:tint="@color/colorPrimary"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_centerVertical="true"
+        android:padding="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+    </RelativeLayout>
+
+</RelativeLayout>
